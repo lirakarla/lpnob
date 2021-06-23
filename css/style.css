@@ -1,4 +1,118 @@
+@import 'bootstrap/bootstrap';
+@import 'bootstrap/variables';
+
 /* Base */
+.ftco-animate {
+  opacity: 0;
+  visibility: hidden; }
+
+  @media (max-width: 767.98px) {
+    .ftco-counter .counter-wrap {
+      margin-bottom: 20px; } }
+
+      .justify-content-center {
+        -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+        justify-content: center !important; }
+        .d-flex {
+          display: -webkit-box !important;
+          display: -ms-flexbox !important;
+          display: flex !important; }
+          .col-md-3 {
+            -webkit-box-flex: 0;
+            -ms-flex: 0 0 25%;
+            flex: 0 0 25%;
+            max-width: 25%; }
+
+            .align-items-center {
+              -webkit-box-align: center !important;
+              -ms-flex-align: center !important;
+              align-items: center !important; }
+
+              .ftco-counter .text strong.number {
+                font-weight: 700;
+                font-size: 32px;
+                color: #fff; }
+
+              
+.ftco-section {
+  padding: 7em 0;
+  position: relative;
+  width: 100%; }
+  @media (max-width: 767.98px) {
+    .ftco-section {
+      padding: 6em 0; } }
+
+      @media (max-width: 1199.98px) {
+        .ftco-counter {
+          background-position: center center !important; } }
+      
+      .ftco-counter .img {
+        display: block;
+        width: 100%; }
+        @media (max-width: 767.98px) {
+          .ftco-counter .img {
+            height: 400px;
+            background-position: top center !important; } }
+      
+      .ftco-counter .text strong.number {
+        font-weight: 700;
+        font-size: 32px;
+        color: #fff; }
+      
+      .ftco-counter .text span {
+        display: block;
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.9);
+        line-height: 1;
+        text-transform: uppercase;
+        font-weight: 600; }
+      
+      .ftco-counter .icon {
+        width: 70px;
+        height: 70px;
+        margin: 0 auto;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        border-radius: 50%; }
+        .ftco-counter .icon span {
+          color: #fff;
+          font-size: 48px; }
+      
+      @media (max-width: 767.98px) {
+        .ftco-counter .counter-wrap {
+          margin-bottom: 20px; } }
+      
+
+                
+.text-monospace {
+  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important; }
+
+.text-justify {
+  text-align: justify !important; }
+
+.text-wrap {
+  white-space: normal !important; }
+
+.text-nowrap {
+  white-space: nowrap !important; }
+
+.text-truncate {
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  white-space: nowrap; }
+
+.text-left {
+  text-align: left !important; }
+
+.text-right {
+  text-align: right !important; }
+
+.text-center {
+  text-align: center !important; }
+
 body {
   line-height: 1.7;
   color: rgb(54, 54, 54);
