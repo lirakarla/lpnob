@@ -135,8 +135,11 @@ a {
   a:hover {
     text-decoration: none; }
 
-h1, h2, h3, h4, h5, h6 {
+h1,  h3, h4, h5, h6 {
   color: #000; }
+
+h2{
+  color:#eb4c29}
 
 .text-black {
   color: #000 !important; }

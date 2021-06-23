@@ -1813,7 +1813,7 @@ html {
 
 .mb-5,
 .my-5 {
-  margin-bottom: 3rem !important; }
+  margin-bottom: .1rem !important; }
 
 .ml-5,
 .mx-5 {
@@ -1843,7 +1843,7 @@ html {
 
 .pt-1,
 .py-1 {
-  padding-top: 0.25rem !important; }
+  padding-top: 0.15rem !important; }
 
 .pr-1,
 .px-1 {
@@ -1851,7 +1851,7 @@ html {
 
 .pb-1,
 .py-1 {
-  padding-bottom: 0.25rem !important; }
+  padding-bottom: 0.15rem !important; }
 
 .pl-1,
 .px-1 {
