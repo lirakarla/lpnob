@@ -1,0 +1,1 @@
+plqntilla falta ajustes
