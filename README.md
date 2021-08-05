@@ -1,1 +1,1 @@
-plqntilla falta ajustes
+plantilla falta ajustes
